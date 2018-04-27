@@ -1,0 +1,28 @@
+{
+  "name": "gjs-storybook",
+  "version": "0.0.0",
+  "bin": "./bin/gjs-storybook.js",
+  "main": "./src/index.js",
+  "scripts": {
+    "lint": "eslint 'bin/**/*.js' 'src/**/*.js' 'example/src/**/*.js'"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "dependencies": {
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "cgjs": "^0.1.32",
+    "eslint": "^4.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewnd9/gjs-storybook.git"
+  },
+  "author": "ewnd9 <ewndnine@gmail.com>",
+  "license": "MIT"
+}

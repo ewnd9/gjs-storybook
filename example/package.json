@@ -1,0 +1,12 @@
+{
+  "name": "gjs-storybook-example",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "yarn storybook",
+    "storybook": "rm -rf dist && gjs-storybook"
+  },
+  "dependencies": {
+    "gjs-storybook": "file:../"
+  }
+}
